@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 @media (min-width: 1025px){
 *{
     margin: 0;
@@ -20,8 +19,6 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-    
-    
 }
 .header-text{
     width: 757px;
@@ -166,7 +163,6 @@ body{
     gap: 16px;
     color: #23272A;
 }
-
 .section-text4{
     width: 802px;
     height: 140px;
@@ -175,7 +171,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-
 .section-text4 > h2{
     width: 608px;
     text-align: center;
@@ -185,7 +180,6 @@ body{
     margin-bottom: 16px;
     margin-left: 10px;
 }
-
 .section-text4 > p{
     position: relative;
     text-align: center;
@@ -195,40 +189,36 @@ body{
     font-weight: 400;
     left: -114px;
 }   
-
 .footer{
     background: #23272A;
     background-size: 100% 100%;
-    display: flex;
-    
+    display: flex;    
     padding: 35px 0px 36px 0px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
 }
-
 svg{
     color: #FFF;
 }
 }
-
 @media (max-width: 448px){
-    *{
+*{
         margin: 0;
         box-sizing: border-box;
         padding: 0;
     }
 
-    .imagens{
+.imagens{
         width: 379px;
         height: 252px;
-    }
+}
 
-    body{
+body{
         font-weight: 400;
         line-height: normal;
-    }
-    .header-content{
+}
+.header-content{
         background-image: url("/assets/img/header-background.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -236,9 +226,8 @@ svg{
         justify-content: column;
         align-items: flex-start;
         display: flex;
-        
-    }
-    .header-text{
+}
+.header-text{
         height: 400px   ;
         margin-top: 70px;
         display: flex;
@@ -247,27 +236,27 @@ svg{
         justify-content: center;
         align-items: flex-start;
         gap: 24px;
-    }
-    .header-text > h1{   
+}
+.header-text > h1{   
         color: #fff;
         width: 278px;
         font-size: 32px;
         font-family: 'luckiest guy';
-    }
-    .header-text > p {
+}
+.header-text > p {
         width: 360px;
         color: #fff;
         font-family: 'Open Sans';
         font-size: 16px;
-    }
-    .button{
+}
+.button{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 16px;
         margin-bottom: 70px;
-    }
-    [id="button-1"]{
+}
+[id="button-1"]{
         width: 381px;
         height: 54px;
         flex-shrink: 0;
@@ -276,8 +265,8 @@ svg{
         border-style: none;
         color: #23272A;
         font-size: 16px;    
-    }
-    [id="button-2"]{
+}
+[id="button-2"]{
         width: 381px;
         height: 52px;
         flex-shrink: 0;
@@ -286,8 +275,8 @@ svg{
         border-style: none;
         color: #FFF;
         font-size: 16px;
-    }
-    .section1{
+}
+.section1{
         margin-left: 24px;
         display: flex;
         padding: 40px 0px; 
@@ -297,34 +286,33 @@ svg{
         gap: 27px;
         font-family: 'Open Sans';
         height: 600px;
-    }  
+}  
     .section-text1{
         display: flex;
         flex-direction: column;
         gap: 16px;
         color: #23272A;
         height: 374px; 
-          
-    }
-    .section-text1 > h2{
+}
+.section-text1 > h2{
         font-size: 24px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
         width: 360px;    
-    }
-    .section-text1 > p{
+}
+.section-text1 > p{
         width: 400px;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-    }
-    .section-2{
+}
+.section-2{
         background:#F6F6F6;
         background-size: cover;
-    }
-    .section2{
+}
+.section2{
         margin-left: 24px;
         display: flex;
         padding: 40px  0px; 
@@ -333,21 +321,21 @@ svg{
         align-items: flex-start;
         gap: 27px;
         font-family: 'Open Sans';
-    }  
+}  
 
-    .section-text2{
+.section-text2{
     order: 2;
     display: inline-grid;
     gap: 27px;
     color: #23272A;
     width: 378px;
-    }
+}
 .section-text2 > h2{
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;   
-    }
+}
 .section-text2 > p{
     font-size: 16px;
     font-style: normal;
@@ -404,8 +392,7 @@ svg{
     align-items: center;
     justify-content: center;
     }
-    
-    .section-text4 > h2{
+.section-text4 > h2{
     text-align: center;
     justify-content: center;
     font-family: 'Luckiest Guy';
@@ -430,6 +417,4 @@ svg{
 }    
 svg{ 
      color: #FFF;
-}
-
-}
+}}
