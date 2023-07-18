@@ -5,5 +5,5 @@
 # Clonar
 
 ````
-git clone https://github.com/Joao-Pereira013/p-gina_discord
+git clone https://github.com/Joao-Pereira013/Pagina_discord
 ````
