@@ -1,4 +1,4 @@
-# Página Discrod
+# Página Discord
 
 <p>Reproduzindo a página do <strong>Discord</strong>.</p>
 
