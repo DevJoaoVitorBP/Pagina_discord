@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-@media (min-width: 1025px){
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -201,8 +201,8 @@ body{
 svg{
     color: #FFF;
 }
-}
-@media (max-width: 448px){
+
+@media (max-width: 767px){
 *{
         margin: 0;
         box-sizing: border-box;
